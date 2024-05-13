@@ -23,9 +23,9 @@ func (svc *PriceFetcher) FetchPrice(ctx context.Context, ticker string) (float64
 }
 
 var priceMocks = map[string]float64 {
-	"BTC": 20_000.0,
-	"ETH": 200.0,
-	"GG":  100_000.0,
+	"NSE": 20_000.0,
+	"BSE": 200.0,
+	"NASDAQ":  100_000.0,
 }
 
 func mockPriceFetcher(ctx context.Context, ticker string) (float64, error) {

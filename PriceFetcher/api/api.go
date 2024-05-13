@@ -1,12 +1,12 @@
 package api
 
 import (
+	"PriceFetcher/service"
+	"PriceFetcher/types"
 	"context"
 	"encoding/json"
 	"math/rand"
 	"net/http"
-	"PriceFetcher/types"
-	"PriceFetcher/service"
 )
 
 type JSONAPIServer struct {
